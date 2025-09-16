@@ -43,7 +43,7 @@ const Home = () => {
             <source src={BGVIDEO} type="video/mp4" />
           </video>
 
-          <div className='relative h-[200px]  w-screen flex justify-center items-center flex-col mt-10  gap-5 z-15'>
+          <div className='relative h-[200px]  w-[500px] flex justify-center items-center flex-col mt-10  gap-5 z-15'>
             <h1 className='text-5xl font-bold text-white mr-15'>🔍GitFinder</h1>
             <p className='text-[12px] font-bold text-gray-300 md:text-[16px]'> Find GitHub repositories & AC quickly and easily with GitFinder.</p>
 
