@@ -37,13 +37,13 @@ const Home = () => {
     <>
 
       <div className='h-screen w-screen bg-black flex justify-center items-center mt-[1px] pt-[50px] overflow-hidden'>
-        <div className='h-full w-full absolute top-5 left-1 flex flex-col items-center justify-center gap-8 overflow-hidden '>
+        <div className='h-full w-screen absolute top-5 left-1 flex flex-col items-center justify-center gap-8 overflow-hidden '>
 
-          <video autoPlay loop muted className='h-[80%] w-full absolute object-contain backdrop-blur-md top-25'>
+          <video autoPlay loop muted className='h-[80%] w-full absolute object-contain backdrop-blur-md top-25 overflow-hidden brightness-50 z-0'>
             <source src={BGVIDEO} type="video/mp4" />
           </video>
 
-          <div className='relative h-[200px]  w-[600px] flex justify-center items-center flex-col mt-10  gap-5 z-15'>
+          <div className='relative h-[200px]  w-screen flex justify-center items-center flex-col mt-10  gap-5 z-15'>
             <h1 className='text-5xl font-bold text-white mr-15'>🔍GitFinder</h1>
             <p className='text-[12px] font-bold text-gray-300 md:text-[16px]'> Find GitHub repositories & AC quickly and easily with GitFinder.</p>
 
