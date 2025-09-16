@@ -12,7 +12,8 @@ const Navbar = () => {
 
                 <div className='h-[90px] w-[400px]  flex items-center justify-center gap-4 md:gap-20'>
                     <Link to='/' className='  text-[18px] font-bold text-white'>Home</Link>
-                    <button className='h-[40px] w-[100px] md:h-[45px] md:w-[130px] bg-gradient-to-b from-blue-500 to-purple-600 text-white text-lg md:text-[20px] font-bold rounded-[10px] flex justify-center items-center gap-2 shadow-sm shadow-blue-500 hover:bg-blue-500 hover:text-blue-100 cursor-pointer'><i className="fa-solid fa-right-to-bracket"></i>LogIn</button>
+                    <button className='h-[40px]  w-[100px] md:h-[45px] md:w-[130px] bg-gradient-to-b from-blue-500 to-purple-600 text-white text-lg md:text-[20px] font-bold rounded-[10px] flex justify-center items-center gap-2 shadow-sm shadow-blue-500 hover:bg-blue-500 hover:text-blue-100 cursor-pointer'><i className="fa-solid fa-right-to-bracket"></i>LogIn</button>
+
                 </div>
             </div>
         </>

@@ -36,8 +36,8 @@ const Home = () => {
   return (
     <>
 
-      <div className='h-screen w-screen bg-black flex justify-center items-center mt-[1px] pt-[50px]'>
-        <div className='h-full w-full absolute top-5 left-5 flex flex-col items-center justify-center gap-8'>
+      <div className='h-screen w-screen bg-black flex justify-center items-center mt-[1px] pt-[50px] overflow-hidden'>
+        <div className='h-full w-full absolute top-5 left-1 flex flex-col items-center justify-center gap-8 overflow-hidden '>
 
           <video autoPlay loop muted className='h-[80%] w-full absolute object-contain backdrop-blur-md top-25'>
             <source src={BGVIDEO} type="video/mp4" />
@@ -71,7 +71,7 @@ const Home = () => {
           </div>
 
           <div className='relative'>
-            <Link to={url} className='text-blue-600 hover:underline text-2xl font-bold' >View Profile</Link>
+            <Link to={url} className='text-white hover:underline text-2xl font-bold bg-gradient-to-b from-blue-500 to-blue-700 pt-2 pb-2 pl-4 pr-4  mt-4 rounded-md' >View Profile</Link>
           </div>
 
         </div>
