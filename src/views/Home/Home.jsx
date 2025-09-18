@@ -27,9 +27,15 @@ const Home = () => {
       setRepo(result.data.public_repos)
       setUrl(result.data.html_url)
       console.log(result.data);
+
     }
     catch (error) {
       console.log("Error Occurred");
+
+      if (!username) {
+        alert("Please Enter a Valid Username")
+      }
+      
     }
   }
 
